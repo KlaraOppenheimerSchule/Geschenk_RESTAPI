@@ -1,9 +1,10 @@
 # Python Server starten:
 
-Für den Server benötigt werden die 3 Dateien:
--APIserver.py
--index.html
--myotherpage.html
+Für den Server benötigt werden die 3 Dateien:  
+
+-APIserver.py  
+-index.html  
+-myotherpage.html  
 
 1) Diese in einen gemeinsamen Ordner ziehen.
 2) Visual Studio Code öffnen
