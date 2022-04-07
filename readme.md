@@ -1,4 +1,4 @@
-# Python Server starten:
+# Lokalen Python Server starten (ohne API):
 
 Für den Server benötigt werden die 3 Dateien:  
 
@@ -17,3 +17,12 @@ Für den Server benötigt werden die 3 Dateien:
 9) mit "localhost:8000/myotherpage" sollte ein Seitenwechsel möglich sein (auf die "myotherpage.html")
   
  -> Bei dem Server handelt es sich nur um ein zu Testzwecken / Wissensaneignung aufgesetztem Skript; in Sachen API ist hier noch nichts implementiert! 
+
+  
+ # Lokalen Python Server starten (mit API):
+  
+  In diesem Fall werden die Testdateien (index.html / myotherpage.html) nicht mehr benötigt.
+  
+  1) Über das Terminal kann mit:  "C:/. . ./python.exe C:\. . .\APIserver.py" die Python file ausgeführt werden.
+  2) In der APIserver.py wird ein "BaseHTTPRequestHandler" implementiert welcher auch gleich gestartet wird.
+  Damit läuft nun auch ein Lokaler Python Server, der die Implementierten http-requests ausführen kann. 
